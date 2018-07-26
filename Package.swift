@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/example-package-fisheryates.git", from: "2.0.0"),
-        .package(url: "https://github.com/apple/example-package-playingcard.git", from: "3.0.0"),
+        .package(url: "https://github.com/RichardPotthoff/example-package-playingcard.git", from: "3.0.0"),
     ],
     targets: [
         .target(
